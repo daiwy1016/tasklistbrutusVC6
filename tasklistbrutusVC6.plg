@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tasklistbrutusVC6 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D44.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/tasklistbrutusVC6.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\hacktools\vc6\MyProjects\tasklistbrutusVC6\tasklistbrutusVC6.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D44.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D45.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/tasklistbrutusVC6.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\hacktools\vc6\MyProjects\tasklistbrutusVC6\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D45.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D46.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/tasklistbrutusVC6.pdb" /debug /machine:I386 /out:"Debug/tasklistbrutusVC6.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\tasklistbrutusVC6.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D46.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(31) : warning C4005: 'STATUS_WAIT_0' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1053) : see previous definition of 'STATUS_WAIT_0'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(37) : warning C4005: 'STATUS_ABANDONED_WAIT_0' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1054) : see previous definition of 'STATUS_ABANDONED_WAIT_0'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(39) : warning C4005: 'STATUS_USER_APC' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1055) : see previous definition of 'STATUS_USER_APC'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(42) : warning C4005: 'STATUS_TIMEOUT' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1056) : see previous definition of 'STATUS_TIMEOUT'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(43) : warning C4005: 'STATUS_PENDING' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1057) : see previous definition of 'STATUS_PENDING'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(77) : warning C4005: 'STATUS_SEGMENT_NOTIFICATION' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1058) : see previous definition of 'STATUS_SEGMENT_NOTIFICATION'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(124) : warning C4005: 'STATUS_GUARD_PAGE_VIOLATION' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1059) : see previous definition of 'STATUS_GUARD_PAGE_VIOLATION'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(125) : warning C4005: 'STATUS_DATATYPE_MISALIGNMENT' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1060) : see previous definition of 'STATUS_DATATYPE_MISALIGNMENT'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(126) : warning C4005: 'STATUS_BREAKPOINT' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1061) : see previous definition of 'STATUS_BREAKPOINT'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(127) : warning C4005: 'STATUS_SINGLE_STEP' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1062) : see previous definition of 'STATUS_SINGLE_STEP'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(176) : warning C4005: 'STATUS_ACCESS_VIOLATION' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1063) : see previous definition of 'STATUS_ACCESS_VIOLATION'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(177) : warning C4005: 'STATUS_IN_PAGE_ERROR' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1064) : see previous definition of 'STATUS_IN_PAGE_ERROR'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(179) : warning C4005: 'STATUS_INVALID_HANDLE' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1065) : see previous definition of 'STATUS_INVALID_HANDLE'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(194) : warning C4005: 'STATUS_NO_MEMORY' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1066) : see previous definition of 'STATUS_NO_MEMORY'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(200) : warning C4005: 'STATUS_ILLEGAL_INSTRUCTION' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1067) : see previous definition of 'STATUS_ILLEGAL_INSTRUCTION'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(208) : warning C4005: 'STATUS_NONCONTINUABLE_EXCEPTION' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1068) : see previous definition of 'STATUS_NONCONTINUABLE_EXCEPTION'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(209) : warning C4005: 'STATUS_INVALID_DISPOSITION' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1069) : see previous definition of 'STATUS_INVALID_DISPOSITION'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(310) : warning C4005: 'STATUS_ARRAY_BOUNDS_EXCEEDED' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1070) : see previous definition of 'STATUS_ARRAY_BOUNDS_EXCEEDED'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(311) : warning C4005: 'STATUS_FLOAT_DENORMAL_OPERAND' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1071) : see previous definition of 'STATUS_FLOAT_DENORMAL_OPERAND'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(312) : warning C4005: 'STATUS_FLOAT_DIVIDE_BY_ZERO' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1072) : see previous definition of 'STATUS_FLOAT_DIVIDE_BY_ZERO'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(313) : warning C4005: 'STATUS_FLOAT_INEXACT_RESULT' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1073) : see previous definition of 'STATUS_FLOAT_INEXACT_RESULT'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(314) : warning C4005: 'STATUS_FLOAT_INVALID_OPERATION' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1074) : see previous definition of 'STATUS_FLOAT_INVALID_OPERATION'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(315) : warning C4005: 'STATUS_FLOAT_OVERFLOW' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1075) : see previous definition of 'STATUS_FLOAT_OVERFLOW'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(316) : warning C4005: 'STATUS_FLOAT_STACK_CHECK' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1076) : see previous definition of 'STATUS_FLOAT_STACK_CHECK'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(317) : warning C4005: 'STATUS_FLOAT_UNDERFLOW' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1077) : see previous definition of 'STATUS_FLOAT_UNDERFLOW'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(318) : warning C4005: 'STATUS_INTEGER_DIVIDE_BY_ZERO' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1078) : see previous definition of 'STATUS_INTEGER_DIVIDE_BY_ZERO'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(319) : warning C4005: 'STATUS_INTEGER_OVERFLOW' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1079) : see previous definition of 'STATUS_INTEGER_OVERFLOW'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(320) : warning C4005: 'STATUS_PRIVILEGED_INSTRUCTION' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1080) : see previous definition of 'STATUS_PRIVILEGED_INSTRUCTION'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(423) : warning C4005: 'STATUS_STACK_OVERFLOW' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1081) : see previous definition of 'STATUS_STACK_OVERFLOW'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(484) : warning C4005: 'STATUS_CONTROL_C_EXIT' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1082) : see previous definition of 'STATUS_CONTROL_C_EXIT'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(740) : warning C4005: 'STATUS_FLOAT_MULTIPLE_FAULTS' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1083) : see previous definition of 'STATUS_FLOAT_MULTIPLE_FAULTS'
+f:\hacktools\vc6\myprojects\tasklistbrutusvc6\ntstatus.h(741) : warning C4005: 'STATUS_FLOAT_MULTIPLE_TRAPS' : macro redefinition
+        f:\hacktools\vc6\vc98\include\winnt.h(1084) : see previous definition of 'STATUS_FLOAT_MULTIPLE_TRAPS'
+Compiling...
+tasklistbrutusVC6.cpp
+Linking...
+LIBCD.lib(exsup.obj) : error LNK2005: __global_unwind2 already defined in ntdll.lib(exsup.obj)
+LIBCD.lib(exsup.obj) : error LNK2005: __local_unwind2 already defined in ntdll.lib(exsup.obj)
+LIBCD.lib(exsup.obj) : error LNK2005: __abnormal_termination already defined in ntdll.lib(exsup.obj)
+Debug/tasklistbrutusVC6.exe : fatal error LNK1169: one or more multiply defined symbols found
+Ö´ÐÐ link.exe Ê±³ö´í.
+Creating command line "bscmake.exe /nologo /o"Debug/tasklistbrutusVC6.bsc"  .\Debug\StdAfx.sbr .\Debug\tasklistbrutusVC6.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+tasklistbrutusVC6.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
